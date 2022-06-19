@@ -1,0 +1,24 @@
+{
+  "name": "nickusme-web-portfolio",
+  "version": "1.0.0",
+  "description": "This website will be used to communicate my project portfolio and developer experiences with those whom it interests. Hope you enjoy :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nick0306/NickUsme-Web-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nick0306/NickUsme-Web-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Nick0306/NickUsme-Web-Portfolio#readme",
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "webpack": "^5.73.0"
+  }
+}
