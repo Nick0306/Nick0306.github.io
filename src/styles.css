@@ -1,6 +1,18 @@
 body {
-	background-color: rgb(239, 233, 240);
+	margin: 0;
+	background: linear-gradient(
+		to right,
+		rgb(11, 11, 11) 0%,
+		rgb(11, 11, 11) 35%,
+		rgb(55, 108, 99) 90%,
+		rgb(55, 108, 99) 100%
+	);
+
 	font-family: 'Open Sans', Tahoma, sans-serif;
+}
+
+#navBar {
+	box-sizing: border-box;
 }
 
 #navBar ul {
@@ -8,32 +20,121 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: rgb(70, 70, 85);
 	position: fixed;
 	top: 0;
 	width: 100%;
 }
-#navBar li {
-	float: left;
-}
+
 #navBar li a {
 	display: block;
-	color: rgb(227, 220, 236);
+	color: rgb(167, 167, 173);
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	border-right: 1px solid rgb(89, 89, 109);
 	border-radius: 5px;
+	float: left;
 }
 
 #navBar li:last-child {
 	float: right;
-	margin-right: 10px;
-	border-left: 1px solid rgb(89, 89, 109);
 	border-right: none;
 	border-radius: 5px;
 }
 
 #navBar li a:hover {
-	background-color: rgb(134, 128, 140);
+	background-color: rgb(59, 55, 55);
+	opacity: 80%;
+}
+
+#navBar li a {
+	text-decoration: none;
+	color: none;
+}
+
+#header {
+	position: relative;
+	margin-top: 3.5rem;
+	display: flex;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+#header img {
+	opacity: 90%;
+	display: block;
+	margin: auto;
+	width: 75rem;
+	height: 30rem;
+	border-radius: 2rem;
+	object-fit: cover;
+	box-shadow: 20px 5px 50px #bac3bf;
+}
+
+#header h1 {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 50pt;
+	cursor: pointer;
+
+	/* Fallback: Set a background color. */
+	background-color: #18c873;
+
+	/* Create the gradient. */
+	background-image: linear-gradient(
+		45deg,
+		#44b5b5 16.333%,
+		#18c873 16.333%,
+		#3ec750 33.333%,
+		#60ed23 33.333%,
+		#fcdf78 50%,
+		#f3aa21 50%
+	);
+
+	/* Set the background size and repeat properties. */
+	background-size: 100%;
+	background-repeat: repeat;
+	background-clip: text;
+
+	/* Use the text as a mask for the background. */
+	/* This will show the gradient as a text color rather than element bg. */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+	/* Animate the text when loading the element. */
+	/* This animates it on page load and when hovering out. */
+	animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+#header h1:hover {
+	animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+/* Move the background and make it smaller. */
+/* Animation shown when entering the page and after the hover animation. */
+@keyframes rainbow-text-simple-animation-rev {
+	0% {
+		background-size: 650%;
+	}
+	40% {
+		background-size: 650%;
+	}
+	100% {
+		background-size: 100%;
+	}
+}
+
+/* Move the background and make it larger. */
+/* Animation shown when hovering over the text. */
+@keyframes rainbow-text-simple-animation {
+	0% {
+		background-size: 100%;
+	}
+	80% {
+		background-size: 650%;
+	}
+	100% {
+		background-size: 650%;
+	}
 }
