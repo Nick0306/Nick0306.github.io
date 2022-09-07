@@ -1,0 +1,25 @@
+body {
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vw;
+	background-color: #99a8ff;
+	background-image: radial-gradient(
+			at 85% 18%,
+			hsla(324, 92%, 60%, 1) 0px,
+			transparent 50%
+		),
+		radial-gradient(at 26% 62%, hsla(317, 91%, 72%, 1) 0px, transparent 50%),
+		radial-gradient(at 57% 44%, hsla(131, 90%, 63%, 1) 0px, transparent 50%),
+		radial-gradient(at 70% 6%, hsla(353, 76%, 63%, 1) 0px, transparent 50%),
+		radial-gradient(at 54% 59%, hsla(94, 92%, 79%, 1) 0px, transparent 50%);
+
+	margin: 0;
+	font-family: Avenir, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}

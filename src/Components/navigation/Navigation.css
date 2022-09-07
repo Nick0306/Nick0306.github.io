@@ -1,0 +1,37 @@
+#navBar {
+	box-sizing: border-box;
+	position: sticky;
+	top: 0;
+}
+/*-----------------------NAV--------------------------*/
+#navBar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.117);
+}
+
+#navBar li a {
+	display: block;
+	color: rgb(45, 45, 46);
+	font-size: 1rem;
+	font-weight: 550;
+	text-align: center;
+	padding: 1.25rem 1rem;
+	text-decoration: none;
+	border-radius: 5px;
+	float: left;
+}
+
+#navBar li:last-child a {
+	float: right;
+	border-right: none;
+	border-radius: 5px;
+}
+
+#navBar li a:hover {
+	background-color: rgba(255, 181, 228, 0.231);
+	opacity: 80%;
+}

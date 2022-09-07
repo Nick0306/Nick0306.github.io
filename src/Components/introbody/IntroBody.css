@@ -1,0 +1,15 @@
+#intro-body {
+	text-align: center;
+	width: 65vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#intro-body p {
+	font-size: 1.75rem;
+	font-weight: 500;
+}
+
+#intro-body p:last-child {
+	margin-top: 2rem;
+}
