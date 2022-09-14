@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9fcc30ce.css",
+    "main.js": "/static/js/main.81e3c435.js",
+    "static/js/787.5544f050.chunk.js": "/static/js/787.5544f050.chunk.js",
+    "static/media/FarmersMarketMural.jpg": "/static/media/FarmersMarketMural.700f91bd3a19ff5cb528.jpg",
+    "index.html": "/index.html",
+    "main.9fcc30ce.css.map": "/static/css/main.9fcc30ce.css.map",
+    "main.81e3c435.js.map": "/static/js/main.81e3c435.js.map",
+    "787.5544f050.chunk.js.map": "/static/js/787.5544f050.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fcc30ce.css",
+    "static/js/main.81e3c435.js"
+  ]
+}
