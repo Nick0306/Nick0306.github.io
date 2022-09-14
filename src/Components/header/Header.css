@@ -58,6 +58,11 @@
 		cubic-bezier(0.76, 0.61, 0, 1.09) forwards;
 }
 
+#header h3:hover {
+	animation: rainbow-text-simple-animation 0.75s
+		cubic-bezier(0.76, 0.61, 0, 1.09) forwards;
+}
+
 /* Move the background and make it smaller. */
 /* Animation shown when entering the page and after the hover animation. */
 @keyframes rainbow-text-simple-animation-rev {
@@ -69,5 +74,17 @@
 	}
 	100% {
 		background-size: 100%;
+	}
+}
+
+@keyframes rainbow-text-simple-animation {
+	100% {
+		background-size: 100%;
+	}
+	40% {
+		background-size: 650%;
+	}
+	0% {
+		background-size: 650%;
 	}
 }
