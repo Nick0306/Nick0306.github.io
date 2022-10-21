@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.1dcdc38e.css",
+    "main.css": "/static/css/main.7db5ca2e.css",
     "main.js": "/static/js/main.11bf8fd7.js",
     "static/js/787.5544f050.chunk.js": "/static/js/787.5544f050.chunk.js",
     "static/media/Bike.jpg": "/static/media/Bike.216673495692aeeac70a.jpg",
     "static/media/FarmersMarketMural.jpg": "/static/media/FarmersMarketMural.700f91bd3a19ff5cb528.jpg",
     "index.html": "/index.html",
-    "main.1dcdc38e.css.map": "/static/css/main.1dcdc38e.css.map",
+    "main.7db5ca2e.css.map": "/static/css/main.7db5ca2e.css.map",
     "main.11bf8fd7.js.map": "/static/js/main.11bf8fd7.js.map",
     "787.5544f050.chunk.js.map": "/static/js/787.5544f050.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1dcdc38e.css",
+    "static/css/main.7db5ca2e.css",
     "static/js/main.11bf8fd7.js"
   ]
 }
